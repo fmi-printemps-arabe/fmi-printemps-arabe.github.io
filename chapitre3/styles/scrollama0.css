@@ -1,0 +1,125 @@
+	
+		/* scrollama */
+
+		#scroll0 {
+			position: relative;
+		}
+
+		/*Conteneur graphique en plein écran*/
+
+		.scroll0__graphic0 {
+
+			position: -webkit-sticky;
+			position: sticky;
+
+			top: 0;
+			left: 0;
+
+			-webkit-transform: translate3d(0, 0, 0);
+			-moz-transform: translate3d(0, 0, 0);
+			transform: translate3d(0, 0, 0);
+			
+			background-color: black
+		}
+
+		/*Graphique en plein écran*/
+
+		.chart0 {
+			position: absolute;
+			
+			top: 50%;
+			left: 50%;
+			margin-left:-600px;
+			margin-top:-300px;
+			
+			-webkit-transform: translate3d(0, 0, 0);
+			-moz-transform: translate3d(0, 0, 0);
+			transform: translate3d(0, 0, 0);
+
+		}
+
+		.chart0 img {
+			height:600px;
+			width:1200px;
+		}
+
+		/*Graphique pas en plein écran centré verticalement*/
+
+		/*
+
+		.scroll__graphic .chart {
+  		position: absolute;
+		right: 1rem;
+  		top: 50%;
+  		-moz-transform: translateY(-50%);
+  		-webkit-transform: translateY(-50%);
+		  transform: translateY(-50%);
+		
+		  			-webkit-transform: translate3d(0, 0, 0);
+			-moz-transform: translate3d(0, 0, 0);
+			transform: translate3d(0, 0, 0);
+		}
+
+		*/
+
+		/*
+		.chart0 p {
+			text-align: center;
+			padding: 1rem;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			-moz-transform: translate(-50%, -50%);
+			-webkit-transform: translate(-50%, -50%);
+			transform: translate(-50%, -50%);
+			font-size: 8rem;
+			font-weight: 900;
+			color: #666;
+		}
+		*/
+
+		/*Image dans graphique*/
+
+		/*
+		.chart img {
+			height:100%;
+			width:100%;
+		}
+		*/
+
+		/*Conteneur texte position verticale & horizontale*/
+
+		.scroll0__text0 {
+
+			position: relative;
+    
+			-moz-transform: translateY(-1%);
+			-webkit-transform: translateY(-1%);
+			transform: translateY(-1%);
+			
+			margin-top: 0;
+			margin-bottom: 0;
+			margin-left: auto;
+			margin-right:5%;
+			
+			width: 40%;
+		}
+
+		/*
+		.step0 {
+			margin: 2rem auto;
+		}
+		*/
+
+		/*
+		.step0.is-active {
+			background-color: lightgoldenrodyellow;
+		}
+		*/
+
+		.step0 p {
+			text-align: center;
+			padding: 1rem;
+			font-size: 1.3rem;
+			background-color: black
+		}

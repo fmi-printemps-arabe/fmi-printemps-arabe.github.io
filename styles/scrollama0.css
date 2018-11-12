@@ -1,0 +1,176 @@
+/* Centrage à faire contrôler par CSS */
+/* Height et Width à faire contrôler par JS plutôt */
+
+#scroll0 {
+    position: relative;
+}
+
+/*GRAPHIQUE*/
+
+/*Conteneur graphique en plein écran*/
+
+.scroll0__graphic0 {
+
+    position: -webkit-sticky;
+    position: sticky;
+
+    top: 0;
+    right: 0;
+
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+
+}
+
+/*Graphique en plein écran*/
+
+.chart0 {
+
+    position: absolute;
+
+    top: 0;
+    right: 0;
+
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+
+    height:100%;
+    width:100%;
+
+}
+
+/*Graphique pas en plein écran centré verticalement*/
+
+/*
+
+.scroll__graphic .chart {
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  -moz-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+*/
+
+/*Image dans graphique en plein écran*/
+
+.chart0 img {
+    height:100%;
+    width:100%;
+}
+
+
+/*TEXTE*/
+
+/*Conteneur texte position verticale & horizontale*/
+
+.scroll0__text0 {
+  position: relative;
+
+  -moz-transform: translateY(-115vh);
+  -webkit-transform: translateY(-115vh);
+  transform: translateY(-115vh);
+
+  margin: 0 auto;
+  /*top:-20%;*/
+  
+  width: 45%;
+  /*max-width: 30rem;*/
+
+  font-family: 'Slabo 27px', serif;
+}
+
+/*Espacement entre steps (margin) et dans box (padding) ou bien voir le js */
+
+.step0 {
+  margin: 8rem 0;
+  text-align: left;
+  padding: 0;
+}
+
+  /* afin de voir le step s'activer */
+
+/*
+.step0.is-active {
+    background-color: lightgoldenrodyellow;
+}
+*/
+
+/* Texte paramètres */
+
+.step0 h1 {
+  font-size:2rem;
+  font-style: bold;
+}
+
+.step0 h4 {
+  font-size:0.8rem
+}
+
+.step0 p {
+  font-size: 1.2rem;
+}
+
+.article {
+  text-align: left 
+}
+
+.legendephoto {
+  color:grey
+}
+
+.photo {
+  height:30vh;
+  width:100%;
+}
+
+#logolibe {
+  float:left;
+  vertical-align: sub;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-right:0.25em;
+  height:20%;
+  width:20%
+}
+
+#logofranceinter{
+  float:left;
+  vertical-align: sub;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-right:0.35em;
+  height:15%;
+  width:15%
+}
+
+#logomee{
+  float:left;
+  vertical-align: sub;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-right:0.35em;
+  height:15%;
+  width:15%
+}
+
+
+#logofhk {
+  float:left;
+  vertical-align: baseline;
+  margin-top: 0;
+  margin-bottom: 0em;
+  margin-right:0.35em;
+}
+
+.twittercolor{
+  color:#00aced
+}
+
+.gris{
+  color:grey
+}

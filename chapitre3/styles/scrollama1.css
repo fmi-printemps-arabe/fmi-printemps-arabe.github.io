@@ -1,0 +1,102 @@
+		/* scrollama */
+
+		#scroll1 {
+			position: relative;
+		}
+
+		/*Conteneur graphique en plein écran*/
+
+		.scroll1__graphic1 {
+
+			position: -webkit-sticky;
+			position: sticky;
+
+			top: 0;
+			right: 0;
+
+			-webkit-transform: translate3d(0, 0, 0);
+			-moz-transform: translate3d(0, 0, 0);
+			transform: translate3d(0, 0, 0);
+			
+			background-color: black
+		}
+
+		/*Graphique en plein écran*/
+
+		.chart1 {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			margin-left:-600px;
+			margin-top:-300px;
+			
+			-webkit-transform: translate3d(0, 0, 0);
+			-moz-transform: translate3d(0, 0, 0);
+			transform: translate3d(0, 0, 0);
+		}
+		.chart1 img {
+			height:600px;
+			width:1200px;
+		}
+
+		/*
+		.chart0 p {
+			text-align: center;
+			padding: 1rem;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			-moz-transform: translate(-50%, -50%);
+			-webkit-transform: translate(-50%, -50%);
+			transform: translate(-50%, -50%);
+			font-size: 8rem;
+			font-weight: 900;
+			color: #666;
+		}
+		*/
+
+		/*Image dans graphique en plein écran*/
+
+		/*
+		.chart img {
+			height:100%;
+			width:100%;
+		}
+		*/
+
+		/*Conteneur texte position verticale & horizontale*/
+
+		.scroll1__text1 {
+			position: relative;
+    
+			-moz-transform: translateY(-1%);
+			-webkit-transform: translateY(-1%);
+			transform: translateY(-1%);
+			
+			margin-top: 0;
+			margin-bottom: 0;
+			margin-left: auto;
+			margin-right:5%;
+			/*top:-20%;*/
+			
+			width: 40%;
+			/*max-width: 30rem;*/
+		}
+		/*
+		.step1 {
+			margin: 2rem auto;
+		}
+		*/
+
+		/*
+		.step0.is-active {
+			background-color: lightgoldenrodyellow;
+		}
+		*/
+
+		.step1 p {
+			text-align: center;
+			padding: 1rem;
+			font-size: 1.3rem;
+			background-color: black
+		}

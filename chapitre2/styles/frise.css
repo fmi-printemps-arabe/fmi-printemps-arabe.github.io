@@ -1,0 +1,270 @@
+/* ---- Timeline ---- */
+#frise {
+
+	position: relative;
+  display: block;
+  
+	margin: 100px;
+  height: 4px;
+  
+	background: #31708F;
+}
+
+#frise::before,
+#frise::after {
+
+  content: "";
+  display: block;
+  position: absolute;
+  
+	top: -8px;
+	width: 0;
+  height: 0;
+  
+  border-radius: 10px;
+	border: 10px solid #31708F;
+}
+
+#frise::before {
+	left: -5px;
+}
+#frise::after {
+  right: -10px;
+  
+	border: 10px solid transparent;
+	border-right: 0;
+	border-left: 20px solid #31708F;
+  border-radius: 3px;
+}
+
+
+/* ---- Timeline elements ---- */
+
+/* border: 10px groove #ffff00 */
+
+#legendefrise p{
+  font:normal 12px arial;
+  color: grey;
+  margin-left: 95px
+}
+
+#aout2012 {
+	position: relative;
+  display: inline-block;
+  
+  width: 112px;
+  height: 10px;
+
+  /*border: 3px solid #73AD21;*/
+}
+
+#aout2012bis {
+	position: relative;
+  display: inline-block;
+  
+  width: 100px;
+  height: 10px;
+
+  /*border: 3px solid #73AD21;*/
+}
+
+#novembre2012 {
+	position: relative;
+  display: inline-block;
+  
+  width: 110px;
+  height: 10px;
+
+  /*border: 3px solid #73AD21;*/
+}
+
+#avril2013 {
+	position: relative;
+  display: inline-block;
+  
+  width: 140px;
+  height: 10px;
+
+  /*border: 3px solid #73AD21;*/
+}
+
+#juillet2014 {
+	position: relative;
+  display: inline-block;
+  
+  width: 200px;
+  height: 10px;
+
+  /*border: 3px solid #73AD21;*/
+}
+
+#avril2016 {
+	position: relative;
+  display: inline-block;
+  
+  width: 100px;
+  height: 10px;
+
+  /*border: 3px solid #73AD21;*/
+}
+
+#juillet2016 {
+	position: relative;
+  display: inline-block;
+  
+  width: 85px;
+  height: 10px;
+
+  /*border: 3px solid #73AD21;*/
+}
+
+#aout2016 {
+	position: relative;
+  display: inline-block;
+  
+  width: 80px;
+  height: 10px;
+
+  /*border: 3px solid #73AD21;*/
+}
+
+#aout2016bis {
+	position: relative;
+  display: inline-block;
+  
+  width: 80px;
+  height: 10px;
+
+  /*border: 3px solid #73AD21;*/
+}
+
+.pays {
+  position: absolute;
+
+  /*width: 100px;*/
+  height: 10px;
+
+  top: -47px;
+  left:0;
+
+  color: rgba(247, 255, 138, 0.884);
+  font: bold italic 12px arial;
+  text-align: center;
+
+  /*border: 3px solid #73AD21;*/
+}
+
+#paysaout2012 {
+  position: absolute;
+
+  /*width: 100px;*/
+  height: 10px;
+
+  top: -47px;
+  left:32px;
+
+  color: rgba(247, 255, 138, 0.884);
+  font: bold italic 12px arial;
+  text-align: center;
+
+  /*border: 3px solid #73AD21;*/
+}
+
+.drapeau{
+  width: 15px;
+  height:100%
+}
+
+.somme {
+  position: absolute;
+
+  /*width: 100px;*/
+  height: 10px;
+
+  top: -30px;
+  left: 0%;
+
+  color: whitesmoke;
+  text-align: center;
+  
+  /*border: 3px solid #73AD21;*/
+}
+
+#sommeaout2012 {
+  position: absolute;
+
+  /*width: 100px;*/
+  height: 10px;
+
+  top: -30px;
+  left: 32px;
+
+  color: whitesmoke;
+  text-align: center;
+  
+  /*border: 3px solid #73AD21;*/
+}
+
+.type {
+  color: grey
+}
+
+.point {
+	content: "";
+	top: -6px;
+	left: 31px;
+	display: block;
+	width: 6px;
+	height: 6px;
+	border: 4px solid #31708F;
+	border-radius: 10px;
+	background: #fff;
+  position: absolute;
+}
+
+.date {
+  position: absolute;
+
+  /*width: 100px;*/
+  height: 10px;
+
+  top: 1px;
+  left: 0;
+
+  color: #31708F;
+  text-align: center;
+  
+  /*border: 3px solid #73AD21;*/
+}
+
+.description {
+  display: none;
+  background-color: #f4f4f4;
+  padding: 10px;
+  margin-top: 20px;
+  position: relative;
+  font-weight: normal;
+  z-index: 1;
+}
+
+.description::before {
+  content: '';
+  width: 0; 
+  height: 0; 
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid #f4f4f4;
+  position: absolute;
+  top: -5px;
+  left: 43%;
+}
+
+/* ---- Hover effects ---- */
+.pret:hover {
+	cursor: pointer;
+  color: #48A4D2;
+}
+
+.pret:hover .description {
+  display: block;
+}
